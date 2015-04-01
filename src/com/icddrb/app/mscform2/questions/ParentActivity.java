@@ -10522,7 +10522,7 @@ else {
 				return;
 			}
 
-			if (qName.equalsIgnoreCase("q29")) {
+		/*	if (qName.equalsIgnoreCase("q29")) {
 				if (Integer.parseInt(qAns) > 0) {
 					if (Integer.parseInt(qAns) < 14) {
 
@@ -10543,7 +10543,7 @@ else {
 						return;
 					}
 				}
-			}
+			}*/
 
 			// Validation & skip definition
 			String sql = "";
@@ -11313,7 +11313,7 @@ else {
 			if (!ClusterID.equalsIgnoreCase(infoText.getText().toString()))
 				return false;
 		}
-		if (CommonStaticClass.questionMap.get(CommonStaticClass.currentSLNo)
+		/*if (CommonStaticClass.questionMap.get(CommonStaticClass.currentSLNo)
 				.getQvar().equalsIgnoreCase("q29")
 				|| CommonStaticClass.questionMap
 						.get(CommonStaticClass.currentSLNo).getQvar()
@@ -11342,7 +11342,7 @@ else {
 					return false;
 				}
 			}
-		}
+		}*/
 
 		return true;
 	}
