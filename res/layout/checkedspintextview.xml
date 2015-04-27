@@ -1,5 +1,5 @@
-<com.icddrb.app.mscform2.TextViewBangla xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:bngspin="http://schemas.android.com/apk/res/com.icddrb.app.mscform2"
+<com.icddrb.app.vitalsigns.TextViewBangla xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bngspin="http://schemas.android.com/apk/res/com.icddrb.app.vitalsigns"
     android:id="@android:id/text1"
     style="?android:attr/spinnerDropDownItemStyle"
     android:layout_width="match_parent"
